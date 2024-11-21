@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Portfolio</title>
+</head>
+<body class="font-sans text-gray-800 bg-gray-100">
+
+  
+  <header class="bg-gray-900 text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Haroun Ouertatani</h1>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="#home" class="hover:text-gray-400">Home</a></li>
+          <li><a href="#projects" class="hover:text-gray-400">Projects</a></li>
+          <li><a href="#contact" class="hover:text-gray-400">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  
+  <section id="home" class="relative bg-cover bg-center h-screen" style="background-image: url('portfolio.jpg');">
+    <div class="bg-black bg-opacity-50 h-full flex flex-col justify-center items-center text-center text-white">
+      <h2 class="text-4xl md:text-6xl font-bold mb-4">Hello, I'm Haroun</h2>
+      <p class="text-lg md:text-xl">A passionate developer creating amazing web experiences.</p>
+    </div>
+  </section>
+
+  
+  <section id="skills" class="py-16 bg-gray-300">
+    <div class="container mx-auto">
+      <h3 class="text-3xl font-bold mb-8 text-center">Skills</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h4 class="text-xl font-semibold mb-4">HTML & CSS</h4>
+          <p>Expert in creating beautiful and responsive websites using HTML and CSS.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h4 class="text-xl font-semibold mb-4">JavaScript</h4>
+          <p>Proficient in JavaScript for building dynamic and interactive web pages.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h4 class="text-xl font-semibold mb-4">React</h4>
+          <p>Skilled in building powerful user interfaces with React.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section id="projects" class="py-16 bg-gray-250">
+    <div class="container mx-auto">
+      <h3 class="text-3xl font-bold mb-8 text-center">Projects</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="project 1.jpg" alt="Project 1" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h4 class="text-xl font-semibold mb-2">Online Gaming Store</h4>
+            <p>an online sotre for gaming accessories to give you a smooth enjoyable experience</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="project 2.jpg" alt="Project 1" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h4 class="text-xl font-semibold mb-2">e-commerce site </h4>
+            <p>shopping site</p>
+          </div>
+
+        </div>
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="project 3.jpg" alt="Project 1" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h4 class="text-xl font-semibold mb-2">restaurant </h4>
+            <p>site to get to know the delicious meal they have and their prices</p>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </section>
+
+ 
+  <section id="contact" class="py-16 bg-gray-100">
+    <div class="container mx-auto">
+      <h3 class="text-3xl font-bold mb-8 text-center">Contact Me</h3>
+      <form class="max-w-lg mx-auto bg-white p-6 rounded-lg shadow-md">
+        <div class="mb-4">
+          <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+          <input type="text" id="name" class="w-full mt-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-500">
+        </div>
+        <div class="mb-4">
+          <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+          <input type="email" id="email" class="w-full mt-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-500">
+        </div>
+        <div class="mb-4">
+          <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+          <textarea id="message" class="w-full mt-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-500"></textarea>
+        </div>
+        <button type="submit" class="w-full bg-indigo-500 text-white p-2 rounded-md hover:bg-indigo-600">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  
+  <footer class="bg-gray-900 text-white py-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <p>© 2024 Haroun Ouertartani. All rights reserved.</p>
+      <div class="flex space-x-4">
+        <a href="#" class="hover:text-gray-400">Facebook</a>
+        <a href="#" class="hover:text-gray-400">Twitter</a>
+        <a href="#" class="hover:text-gray-400">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
